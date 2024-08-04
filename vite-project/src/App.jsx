@@ -11,13 +11,15 @@ import Onchange from "./Onchange.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 // import UpdateObject from "./UpdateObejct.jsx";
 // import UpdateArray from "./UpdateArray.jsx";
-import UpdateObjectArray from "./UpdateObjectArray.jsx";
+// import UpdateObjectArray from "./UpdateObjectArray.jsx";
+import TodoList from "./TodoList.jsx";
+import UseEffectCase from "./useHookCase.jsx";
 
 // import UserGreeting from "./UserGreeting.jsx";
 function App() {
   return (
    
-    <UpdateObjectArray/>
+    <UseEffectCase />
 
    
   );
