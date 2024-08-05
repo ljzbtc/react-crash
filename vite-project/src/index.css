@@ -97,6 +97,18 @@
   padding: 10px;
 }
 
+.box{
+  font-family: 'Arial', sans-serif;
+  
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  /* background-color: hsl(185, 100%, 50%); */
+  color: black;
+  text-align: center;
+  margin: 10px;
+}
+
 .welcome-message{
   font-family: 'Arial', sans-serif;
   font-size: 2em;

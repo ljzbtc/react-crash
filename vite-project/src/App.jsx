@@ -13,13 +13,15 @@ import ColorPicker from "./ColorPicker.jsx";
 // import UpdateArray from "./UpdateArray.jsx";
 // import UpdateObjectArray from "./UpdateObjectArray.jsx";
 import TodoList from "./TodoList.jsx";
-import UseEffectCase from "./useHookCase.jsx";
+// import UseEffectCase from "./useHookCase.jsx";
 
+// import DigitalClock from "./DigitalClock.jsx";
+import UseContextCase from "./UseContextCase.jsx";
 // import UserGreeting from "./UserGreeting.jsx";
 function App() {
   return (
    
-    <UseEffectCase />
+    <UseContextCase/>
 
    
   );
