@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e6f3ff; /* Light icy blue background */
+  }
+  
+  .intro-content {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro-shape-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ff; /* Alice blue */
+  }
+  
+  .intro-shape {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .snowflake {
+    fill: none;
+    stroke: #b0e0e6; /* Powder blue */
+    stroke-width: 2;
+  }
+  
+  .intro-text {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .intro-title {
+    font-size: 2.5rem;
+    color: #4682b4; /* Steel blue */
+    margin-bottom: 1rem;
+  }
+  
+  .intro-description {
+    color: #708090; /* Slate gray */
+  }
