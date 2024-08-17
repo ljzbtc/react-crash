@@ -1,30 +1,22 @@
-import React from 'react';
-import '../src/css/Intro.css';
 
-const FrozenThemeIntro = () => {
+import '../src/css/HomePage.css';
+
+function HomePage() {
+
   return (
-    <div className="intro-container">
-      <div className="intro-content">
-        <div className="intro-shape-container">
-          <svg viewBox="0 0 100 100" className="intro-shape">
-            <circle cx="50" cy="50" r="40" className="snowflake" />
-          </svg>
-        </div>
-        <div className="intro-text">
-          <h1 className="intro-title">
-            Hello,
-            <br />
-            I'm Ivy,
-            <br />
-            an autodidact.
-          </h1>
-          <p className="intro-description">
-            And I love traveling, photography, design and programming.
-          </p>
-        </div>
+    <div className="home-page">
+      <div className="left-image">
+        <img src="/final.jpg" alt="profile-pic" />
+      </div>
+      <div className="content">
+        <h1>Hello,</h1>
+        <h2>吕由</h2>
+        <h2>an autodidact.</h2>
+        <p>And I love traveling, photography, design and programming.</p>
       </div>
     </div>
   );
-};
 
-export default FrozenThemeIntro;
+}
+
+export default HomePage;

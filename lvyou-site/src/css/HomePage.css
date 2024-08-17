@@ -1,0 +1,73 @@
+.home-page {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.left-image, .right-image {
+  flex: 1;
+  max-width: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.left-image {
+  height: 70vh; /* 左边较低 */
+  align-self: flex-end; /* 对齐到底部 */
+}
+
+.right-image {
+  height: 90vh; /* 右边较高 */
+  align-self: flex-start; /* 对齐到顶部 */
+}
+
+.left-image img, .right-image img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  max-width: none;
+}
+
+.left-image img {
+  left: 0;
+}
+
+.right-image img {
+  right: 0;
+}
+
+.content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+  max-width: 40%;
+}
+
+/* ... 其他样式保持不变 ... */
+
+@media (max-width: 768px) {
+  .home-page {
+    flex-direction: column;
+  }
+
+  .left-image, .right-image, .content {
+    max-width: 100%;
+  }
+
+  .left-image {
+    height: 30vh;
+    align-self: flex-start;
+  }
+
+  .right-image {
+    height: 40vh;
+  }
+
+  .left-image img, .right-image img {
+    width: 100%;
+    height: auto;
+  }
+}
