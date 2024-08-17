@@ -1,0 +1,127 @@
+.game-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .game-status {
+    width: 300px;
+    text-align: center;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .game-board {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .move-history {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .move-history h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .move-list {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .move-item {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+  }
+  
+  .reset-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .reset-button:hover {
+    background-color: #45a049;
+  }
+  .game-status {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .game-status-black {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+  }
+  
+  .game-status-white {
+    background-color: #f0f0f0;
+    color: black;
+    border: 2px solid #333;
+  }
+  
+  .game-status-winner {
+    background-color: #ffd700;
+    color: #333;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  
+  .status-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .status-icon-black {
+    background-color: black;
+    border: 2px solid white;
+  }
+  
+  .status-icon-white {
+    background-color: white;
+    border: 2px solid black;
+  }
+  
+  .status-icon-winner {
+    background-color: #ffd700;
+    border: 2px solid #333;
+  }
