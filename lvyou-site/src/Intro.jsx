@@ -1,22 +1,25 @@
-
 import '../src/css/HomePage.css';
 
 function HomePage() {
-
   return (
     <div className="home-page">
-      <div className="left-image">
-        <img src="/final.jpg" alt="profile-pic" />
-      </div>
       <div className="content">
-        <h1>Hello,</h1>
-        <h2>吕由</h2>
-        <h2>an autodidact.</h2>
-        <p>And I love traveling, photography, design and programming.</p>
+        <img src="/profile.jpg" alt="Lü You" className="profile-image" />
+        <h1>吕由 <span className="pinyin">Lü You</span></h1>
+        <h2>English Language Educator</h2>
+        <p className="intro-text">
+          Dedicated to helping you master English through personalized, 
+          culture-rich lessons. Let's embark on this linguistic journey together.
+        </p>
+        <div className="features">
+          <span className="feature-tag">TEFL Certified</span>
+          <span className="feature-tag">IELTS Specialist</span>
+          <span className="feature-tag">Cultural Immersion</span>
+        </div>
+        <button className="cta-button">Schedule a Free Consultation</button>
       </div>
     </div>
   );
-
 }
 
 export default HomePage;

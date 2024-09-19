@@ -1,73 +1,92 @@
 .home-page {
   display: flex;
-  height: 100vh;
+  align-items: center;
+  min-height: 100vh;
   background-color: #f5f5f5;
-  overflow: hidden;
-}
-
-.left-image, .right-image {
-  flex: 1;
-  max-width: 30%;
-  overflow: hidden;
-  position: relative;
 }
 
 .left-image {
-  height: 70vh; /* 左边较低 */
-  align-self: flex-end; /* 对齐到底部 */
-}
-
-.right-image {
-  height: 90vh; /* 右边较高 */
-  align-self: flex-start; /* 对齐到顶部 */
-}
-
-.left-image img, .right-image img {
-  position: absolute;
-  height: 100%;
-  width: auto;
-  max-width: none;
+  flex: 1;
+  padding: 2rem;
 }
 
 .left-image img {
-  left: 0;
-}
-
-.right-image img {
-  right: 0;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .content {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 50px;
-  max-width: 40%;
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* ... 其他样式保持不变 ... */
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
 
-@media (max-width: 768px) {
-  .home-page {
-    flex-direction: column;
-  }
+h2 {
+  color: #4a4a4a;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
 
-  .left-image, .right-image, .content {
-    max-width: 100%;
-  }
+.pinyin {
+  font-size: 1.5rem;
+  color: #666;
+}
 
-  .left-image {
-    height: 30vh;
-    align-self: flex-start;
-  }
+h3 {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
 
-  .right-image {
-    height: 40vh;
-  }
+.divider {
+  height: 2px;
+  background-color: #ddd;
+  margin: 1rem 0;
+}
 
-  .left-image img, .right-image img {
-    width: 100%;
-    height: auto;
-  }
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item i {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin-bottom: 0.5rem;
+}
+
+.cta-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #3a7bc8;
 }

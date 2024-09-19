@@ -6,10 +6,11 @@ import FilterableProductTable from "./FilterableProductTable";
 function App() {
   return (
     <>
+    <Intro />
       {/* <Heading />
-      <Intro />
+      
       <EventsCase /> */}
-      <FilterableProductTable />
+      {/* <FilterableProductTable /> */}
       {/* <Nav /> */}
     </>
   );
